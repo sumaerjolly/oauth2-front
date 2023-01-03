@@ -8,7 +8,7 @@ use League\OAuth2\Client\Token\AccessToken;
 use Psr\Http\Message\ResponseInterface;
 use SumaerJolly\OAuth2\Client\Provider\FrontUser;
 
-class Front extends AbstractProvider
+class FrontApp extends AbstractProvider
 {
   const ACCESS_TOKEN_RESOURCE_OWNER_ID = 'id';
 
