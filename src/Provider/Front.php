@@ -40,7 +40,7 @@ class Front extends AbstractProvider
 
   public function getResourceOwnerDetailsUrl(AccessToken $token)
   {
-    return 'https://app.frontapp.com/oauth/token';
+    return 'https://api2.frontapp.com/me';
   }
 
   public function getDefaultScopes()
